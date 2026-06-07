@@ -1,0 +1,23 @@
+# QuestaSim
+transcript
+vsim.wlf
+modelsim.ini
+work/
+*.wlf
+
+# Quartus
+db/
+incremental_db/
+output_files/
+*.qws
+*.qdf
+*.rpt
+*.summary
+*.smsg
+
+# Temporary files
+*.bak
+*.log
+
+# VS Code
+.vscode/
