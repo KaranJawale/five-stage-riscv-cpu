@@ -1,23 +1,85 @@
-# QuestaSim
-transcript
+# ============================
+# QuestaSim / ModelSim
+# ============================
 vsim.wlf
 modelsim.ini
 work/
+transcript
 *.wlf
+*.vcd
+*.vstf
+*.log
+modelsim.ini
 
-# Quartus
+# ============================
+# Quartus generated files
+# ============================
+quartus/db/
+quartus/qdb/
+quartus/incremental_db/
 db/
 incremental_db/
 output_files/
-*.qws
 *.qdf
 *.rpt
 *.summary
 *.smsg
+*.qws
+*.jdi
+*.pin
+*.sof
+*.pof
+*.rbf
+*.hexout
+*.done
 
-# Temporary files
+# ============================
+# Backup files
+# ============================
 *.bak
 *.log
+*.tmp
 
+# ============================
 # VS Code
+# ============================
 .vscode/
+
+# ============================
+# Windows
+# ============================
+Thumbs.db
+Desktop.ini
+
+# ==========================================================
+# Python cache (if used later)
+# ==========================================================
+
+__pycache__/
+*.pyc
+
+# ==========================================================
+# Temporary files
+# ==========================================================
+
+*.swp
+*.swo
+
+# ==========================================================
+# Keep documentation and images
+# ==========================================================
+!docs/
+!docs/*.png
+!docs/*.jpg
+!docs/*.pdf
+
+# Simulation files
+sim/
+work/
+*.wlf
+transcript
+
+# Logs and reports
+*.log
+*.rpt
+*.bak
